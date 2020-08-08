@@ -58,5 +58,5 @@ if __name__ == "__main__":
 	str = sys.argv[1]
 	m = Morser(str)
 	print(m.Splitw())
-	m.CharMorse('c')
+	m.MkWord(str)
 
